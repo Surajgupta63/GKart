@@ -45,7 +45,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-2 col-md-3 col-6">
-              <a href="./" class="brand-wrap">
+              <a href="{% url "home" %}" class="brand-wrap">
                 <img class="logo" src="{% static 'images/logo.png' %}" />
               </a>
               <!-- brand-wrap.// -->
@@ -71,10 +71,11 @@
             <!-- col.// -->
             <a href="{% url "store" %}" class="btn btn-outline-primary">Store</a>
             <div class="col-lg col-md-6 col-sm-12 col">
-              <form action="#" class="search">
+              <form action="{% url "search" %}" class="search">
                 <div class="input-group w-100">
                   <input
                     type="text"
+                    name="keyword"
                     class="form-control"
                     style="width: 60%"
                     placeholder="Search"
@@ -100,11 +101,11 @@
                     <a href="./register.html"> Register</a>
                   </div>
                 </div>
-                <a href="./cart.html" class="widget-header pl-3 ml-3">
+                <a href="{% url "cart" %}" class="widget-header pl-3 ml-3">
                   <div class="icon icon-sm rounded-circle border">
                     <i class="fa fa-shopping-cart"></i>
                   </div>
-                  <span class="badge badge-pill badge-danger notify">0</span>
+                  <span class="badge badge-pill badge-danger notify">{{ cart_count }}</span>
                 </a>
               </div>
               <!-- widgets-wrap.// -->
