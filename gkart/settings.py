@@ -84,3 +84,17 @@ MEDIA_ROOT = BASE_DIR /'media'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+## Manually Added
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: "danger",
+}
+
+
+## Email Configuration -> Manually Added
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'suraj.gupta@affinsys.com'
+EMAIL_HOST_PASSWORD = 'szel opwj bidr mruq'
+EMAIL_USE_TLS = True

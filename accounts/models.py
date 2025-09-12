@@ -41,9 +41,9 @@ class MyAccountManager(BaseUserManager):
 class Account(AbstractBaseUser):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    username = models.CharField(max_length=100)
+    username = models.CharField(max_length=100, unique=True)
     email = models.CharField(max_length=100, unique=True)
-    mobile_number = models.CharField(max_length=100, unique=True)
+    mobile_number = models.CharField(max_length=13)
 
     ## required
     date_joined = models.DateTimeField(auto_now_add=True)
