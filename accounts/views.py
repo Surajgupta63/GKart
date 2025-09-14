@@ -5,6 +5,7 @@ from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required
 from carts.models import Cart, CartItem
 from carts.views import _cart_id
+import requests
 
 ## Email Verification libraries
 from django.contrib.sites.shortcuts import get_current_site
@@ -73,16 +74,50 @@ def login(request):
                 is_cart_item_exists = CartItem.objects.filter(cart=cart).exists()
                 if is_cart_item_exists:
                     cart_item = CartItem.objects.filter(cart=cart)
+
+                    ##Bring all the variations from cart by cart id
+                    product_variation = []
                     for item in cart_item:
-                        item.user = user
-                        item.save()
+                        variation = item.variations.all()
+                        product_variation.append(list(variation))
+                    
+                    ##Get cart item from the user to acces his all product variations
+                    cart_item = CartItem.objects.filter(user=user)
+                    ex_var_list = []
+                    id = []
+                    for item in cart_item:
+                        existing_variation = item.variations.all()
+                        ex_var_list.append(list(existing_variation))
+                        id.append(item.id)
+                    
+                    for pv in product_variation:
+                        if pv in ex_var_list:
+                            # increase the cart item quantity
+                            index = ex_var_list.index(pv)
+                            item_id = id[index]
+                            item = CartItem.objects.get(id=item_id)
+                            item.quantity += 1
+                            item.user = user
+                            item.save()
+                        else:
+                            cart_item = CartItem.objects.filter(cart=cart)
+                            for item in cart_item:
+                                item.user = user
+                                item.save()
 
             except:
                 pass
             
             auth.login(request, user)
             messages.success(request, "You are logged in successfuly.")
-            return redirect('dashboard')
+            url = request.META.get("HTTP_REFERER")
+            try:
+                query = requests.utils.urlparse(url).query
+                params = dict(x.split('=') for x in query.split('&'))
+                if 'next' in params:
+                    return redirect(params['next'])
+            except:
+                return redirect('dashboard')
         else:
             messages.error(request, "invalid email or password.")
             return redirect('login')

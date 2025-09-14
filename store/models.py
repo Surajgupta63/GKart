@@ -40,6 +40,9 @@ class Variation(models.Model):
     is_active           = models.BooleanField(default=True)
     created_date         = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        ordering = ['variation_category']
+
     objects = VariationManager()
 
     def __str__(self):
