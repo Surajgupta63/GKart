@@ -125,7 +125,6 @@ def payments(request):
     }
     return JsonResponse(data)
 
-
 def order_complete(request):
     order_number = request.GET.get('order_number')
     transID = request.GET.get('payment_id')
