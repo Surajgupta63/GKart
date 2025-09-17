@@ -157,7 +157,10 @@ def activate(request, uidb64, token):
 def dashboard(request):
     orders = Order.objects.order_by('-created_at').filter(user_id=request.user.id, is_ordered=True)
     total_orders = orders.count()
-    user_profile = UserProfile.objects.get(user_id=request.user.id)
+    try:
+        user_profile = UserProfile.objects.get(user_id=request.user.id)
+    except UserProfile.DoesNotExist:
+        user_profile = None
     context = {
         "total_orders": total_orders,
         "user_profile": user_profile
@@ -239,7 +242,10 @@ def my_orders(request):
 
 @login_required(login_url='login')
 def edit_profile(request):
-    user_profile = get_object_or_404(UserProfile, user=request.user)
+    try:
+        user_profile = get_object_or_404(UserProfile, user=request.user)
+    except:
+        user_profile = None
     if request.method == "POST":
         user_form = UserForm(request.POST, instance=request.user)
         user_profile_form = UserProfileForm(request.POST, request.FILES, instance=user_profile)
