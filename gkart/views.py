@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 def home(request):
     products = Product.objects.all().filter(is_available=True).order_by('created_at')
 
-    reviews = 0
+    reviews = None
     for product in products:
         reviews = ReviewRating.objects.filter(product_id=product.id, status=True)
 
