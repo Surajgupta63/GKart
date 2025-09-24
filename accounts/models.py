@@ -73,7 +73,7 @@ class Account(AbstractBaseUser):
 
 class UserProfile(models.Model):
     user = models.OneToOneField(Account, on_delete=models.CASCADE)
-    profile_picture = models.ImageField(upload_to='userprofile', default='default/default_user.png', blank=True)
+    profile_picture = models.ImageField(upload_to='userprofile', default='default/default_user.png')
     address_line_1 = models.CharField(max_length=100, blank=True)
     address_line_2 = models.CharField(max_length=100, blank=True)
     pin_code = models.CharField(max_length=20, blank=True)
