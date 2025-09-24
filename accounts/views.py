@@ -42,7 +42,7 @@ def register(request):
             ## Creating User Profile
             user_profile = UserProfile()
             user_profile.user_id = user.id
-            user_profile.profile_picture = "default/default_user.png"
+            # user_profile.profile_picture = "default/default_user.png"
             user_profile.save()
 
             ## Sending Verification Link To Email
