@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'store',
     'carts',
     'orders',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -95,15 +96,15 @@ USE_I18N = True
 USE_TZ = True
 
 
-STATIC_URL = "/static/"
-STATIC_ROOT = BASE_DIR / "static"
-STATICFILES_DIRS = [
-    "gkart/static"
-]
+# STATIC_URL = "/static/"
+# STATIC_ROOT = BASE_DIR / "static"
+# STATICFILES_DIRS = [
+#     "gkart/static"
+# ]
 
 
-MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
+# MEDIA_URL = "/media/"
+# MEDIA_ROOT = BASE_DIR / "media"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -120,3 +121,40 @@ EMAIL_PORT = config('EMAIL_PORT', cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+
+
+
+## AWS S3 Static and Media Files Configuration
+AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
+AWS_STORAGE_BUCKET_NAME = config("AWS_STORAGE_BUCKET_NAME")
+AWS_S3_REGION_NAME = "us-west-2"  # change as needed
+AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
+
+# Optional: cache control for static files (long cache)
+AWS_S3_OBJECT_PARAMETERS = {
+    "CacheControl": "max-age=86400",  # 1 day
+}
+
+# Paths in S3 bucket
+AWS_LOCATION = "static"
+AWS_MEDIA_LOCATION = "media"
+
+# Django staticfiles (only needed if you keep extra local assets before collectstatic)
+STATICFILES_DIRS = [
+    BASE_DIR / "gkart" / "static",  # use pathlib for safety
+]
+
+# Storage backends
+STORAGES = {
+    "default": {  # Media (user uploads)
+        "BACKEND": "gkart.storage_backends.MediaStorage",
+    },
+    "staticfiles": {  # Static (CSS, JS, images, etc.)
+        "BACKEND": "gkart.storage_backends.StaticStorage",
+    },
+}
+
+# Public URLs
+STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/"
+MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_MEDIA_LOCATION}/"
