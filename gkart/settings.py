@@ -116,7 +116,7 @@ else:
     # Local development
     STATIC_URL = "/static/"
     STATICFILES_DIRS = [BASE_DIR / "gkart/static"]
-    STATIC_ROOT = BASE_DIR / "staticfiles"  # collected files (safe, not overlapping)
+    STATIC_ROOT = BASE_DIR / "static"  # collected files (safe, not overlapping)
 
     MEDIA_URL = "/media/"
     MEDIA_ROOT = BASE_DIR / "media"
