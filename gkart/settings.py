@@ -95,14 +95,31 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR /'static'
-STATICFILES_DIRS = [
-    'gkart/static',
-]
+# Check if we have a bucket defined → use S3 in that case
+AWS_STORAGE_BUCKET_NAME = config("AWS_STORAGE_BUCKET_NAME", default=None)
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR /'media'
+if AWS_STORAGE_BUCKET_NAME:
+    # AWS credentials (best to store only in EB env vars)
+    AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID")
+    AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
+    AWS_S3_REGION_NAME = config("AWS_S3_REGION_NAME", default="us-west-2")
+    AWS_QUERYSTRING_AUTH = config("AWS_QUERYSTRING_AUTH", default="False") == "True"
+
+    # Storages
+    STATICFILES_STORAGE = "gkart.media_storage.StaticStorage"
+    DEFAULT_FILE_STORAGE = "gkart.media_storage.MediaStorage"
+
+    # URLs for S3
+    STATIC_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com/static/"
+    MEDIA_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com/media/"
+else:
+    # Local development
+    STATIC_URL = "/static/"
+    STATICFILES_DIRS = [BASE_DIR / "gkart/static"]
+    STATIC_ROOT = BASE_DIR / "staticfiles"  # collected files (safe, not overlapping)
+
+    MEDIA_URL = "/media/"
+    MEDIA_ROOT = BASE_DIR / "media"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -119,3 +136,4 @@ EMAIL_PORT = config('EMAIL_PORT', cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+
