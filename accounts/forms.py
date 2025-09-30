@@ -22,6 +22,12 @@ class RegistrationForm(forms.ModelForm):
 
         if password != confirm_password:
             raise forms.ValidationError("password does not match!!")
+        
+    def clean_email(self):
+        email = self.cleaned_data.get('email')
+        if Account.objects.filter(email=email).exists():
+            raise forms.ValidationError("email already exists.")
+        return email
 
 
 class UserForm(forms.ModelForm):
