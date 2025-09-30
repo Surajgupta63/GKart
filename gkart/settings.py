@@ -11,19 +11,54 @@ DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = ['django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', '*']
 
 INSTALLED_APPS = [
+     # Django core apps
     'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.auth',          # should be here (before sites/allauth)
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Needed for allauth
+    'django.contrib.sites',
+
+    # Allauth apps
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+
+    # Your custom apps
     'category',
     'accounts',
     'store',
     'carts',
     'orders',
+
+    # Other third-party apps
     'storages',
 ]
+
+## for allauth
+# Provider specific settings
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'APP': {
+            'client_id': config('SOCIAL_AUTH_GOOGLE_CLIENT_ID'),
+            'secret': config('SOCIAL_AUTH_GOOGLE_SECRET'),
+        },
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+            'prompt': 'consent',
+        }
+    },
+}
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -34,6 +69,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
+     # Add the account middleware:
+    "allauth.account.middleware.AccountMiddleware",
 ]
 
 SESSION_EXPIRE_SECONDS = 3600  # 1 hour
@@ -140,9 +177,8 @@ AWS_S3_OBJECT_PARAMETERS = {
 AWS_LOCATION = "static"
 AWS_MEDIA_LOCATION = "media"
 
-# Django staticfiles (only needed if you keep extra local assets before collectstatic)
 STATICFILES_DIRS = [
-    BASE_DIR / "gkart" / "static",  # use pathlib for safety
+    "gkart/static", 
 ]
 
 # Storage backends
@@ -158,3 +194,24 @@ STORAGES = {
 # Public URLs
 STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/"
 MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_MEDIA_LOCATION}/"
+
+
+## for allauth(OAuth) Configuration
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+LOGIN_REDIRECT_URL = 'dashboard'  # or '/user-accounts/' or whatever your home/dashboard is
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'   # Disable Allauth automatic verification
+# ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_SIGNUP_FIELDS = ['email*', 'password1*', 'password2*']
+# ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_LOGIN_METHODS = {'email'}
+ACCOUNT_UNIQUE_EMAIL = True
+
+SOCIALACCOUNT_EMAIL_VERIFICATION = 'none'  # or 'none'
+SOCIALACCOUNT_AUTO_SIGNUP = True
+SOCIALACCOUNT_EMAIL_AUTHENTICATION = True
+SOCIALACCOUNT_LOGIN_ON_GET = True
+
+# Adapters
+ACCOUNT_ADAPTER = 'accounts.adapters.CustomAccountAdapter'
+SOCIALACCOUNT_ADAPTER = 'accounts.adapters.CustomSocialAccountAdapter'
+

@@ -1,0 +1,37 @@
+{% load socialaccount %}
+
+<div class="my-4">
+    <div class="d-flex align-items-center">
+        <hr class="flex-grow-1">
+        <span class="px-2 text-muted small">OR</span>
+        <hr class="flex-grow-1">
+    </div>
+</div>
+
+<div class="d-grid gap-3 my-3">
+
+    <!-- Google -->
+    <a class="btn btn-outline-primary position-relative d-flex align-items-center mb-2" href="{% provider_login_url "google" %}">
+        <i class="fab fa-google text-danger position-absolute start-0 ms-3"></i>
+        <span class="mx-auto">Sign in with Google</span>
+    </a>
+
+    <!-- GitHub -->
+    <a class="btn btn-outline-primary position-relative d-flex align-items-center mb-2" href="#">
+        <i class="fab fa-github position-absolute start-0 ms-3"></i>
+        <span class="mx-auto">Sign in with GitHub</span>
+    </a>
+
+    <!-- Twitter -->
+    <a class="btn btn-outline-primary position-relative d-flex align-items-center mb-2" href="#">
+        <i class="fab fa-twitter text-info position-absolute start-0 ms-3"></i>
+        <span class="mx-auto">Sign in with Twitter</span>
+    </a>
+
+    <!-- Facebook -->
+    <a class="btn btn-outline-primary position-relative d-flex align-items-center" href="#">
+        <i class="fab fa-facebook-f text-primary position-absolute start-0 ms-3"></i>
+        <span class="mx-auto">Sign in with Facebook</span>
+    </a>
+
+</div>
