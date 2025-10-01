@@ -103,15 +103,16 @@ WSGI_APPLICATION = 'gkart.wsgi.application'
 AUTH_USER_MODEL = 'accounts.Account'
 
 # Database Configuration
-if 'RDS_DB_NAME' in os.environ:
+RDS_DB_NAME = config('RDS_DB_NAME', default=None)
+if RDS_DB_NAME:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': os.environ['RDS_DB_NAME'],
-            'USER': os.environ['RDS_USERNAME'],
-            'PASSWORD': os.environ['RDS_PASSWORD'],
-            'HOST': os.environ['RDS_HOSTNAME'],
-            'PORT': os.environ['RDS_PORT'],
+            'NAME': config('RDS_DB_NAME'),
+            'USER': config('RDS_DB_USER'),
+            'PASSWORD': config('RDS_DB_PASSWORD'),
+            'HOST':config('RDS_DB_HOST'),
+            'PORT': config('RDS_DB_PORT', cast=int, default=5432),
         }
     }
 else:
