@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', '*']
+ALLOWED_HOSTS = ['django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', "gkartz.in", "www.gkartz.in"]
 
 INSTALLED_APPS = [
      # Django core apps
@@ -58,6 +58,7 @@ SOCIALACCOUNT_PROVIDERS = {
     },
 }
 
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
 SITE_ID = 1
 
 MIDDLEWARE = [
@@ -216,3 +217,8 @@ SOCIALACCOUNT_LOGIN_ON_GET = True
 ACCOUNT_ADAPTER = 'accounts.adapters.CustomAccountAdapter'
 SOCIALACCOUNT_ADAPTER = 'accounts.adapters.CustomSocialAccountAdapter'
 
+
+if DEBUG:
+    DEFAULT_DOMAIN = "127.0.0.1:8000"
+else:
+    DEFAULT_DOMAIN = "gkartz.in"
