@@ -164,11 +164,11 @@ EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
 
 
 ## AWS S3 Static and Media Files Configuration
-AWS_S3_ACCESS_KEY_ID = config("AWS_S3_ACCESS_KEY_ID")
-AWS_S3_SECRET_ACCESS_KEY = config("AWS_S3_SECRET_ACCESS_KEY")
-AWS_S3_STORAGE_BUCKET_NAME = config("AWS_S3_STORAGE_BUCKET_NAME")
+AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
+AWS_STORAGE_BUCKET_NAME = config("AWS_STORAGE_BUCKET_NAME")
 AWS_S3_REGION_NAME = "us-west-2"  # change as needed
-AWS_S3_CUSTOM_DOMAIN = f"{AWS_S3_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
+AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
 
 # Optional: cache control for static files (long cache)
 AWS_S3_OBJECT_PARAMETERS = {
