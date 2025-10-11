@@ -3,7 +3,7 @@ from store.models import Product, ReviewRating
 from django.http import JsonResponse
 
 def home(request):
-    products = Product.objects.all().filter(is_available=True).order_by('created_at')
+    products = Product.objects.all().filter(is_available=True).order_by('-created_at')
 
     reviews = None
     for product in products:
