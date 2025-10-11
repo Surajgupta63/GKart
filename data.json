@@ -1,0 +1,3984 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "1zddnokwogjfwgt6se1wv2f9xzivgqbs",
+    "fields": {
+        "session_data": ".eJxVjDEOAiEQRe9CbYjAAGJp7xkIMwOyaiBZdivj3XWTLbT9773_EjGtS43ryHOcWJyFEoffDRM9ctsA31O7dUm9LfOEclPkToe8ds7Py-7-HdQ06rc2GiAXZEeAfLIpkIECYBwpMDpoXzAUwmwVp0JBMRiL5UienAvgg3h_APTYOEI:1uya2u:-c4RXN5uOw63a4ihAlaBQuqNujUwEHG6RHD0KEPjc9Y",
+        "expire_date": "2025-09-30T18:04:52.058Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6h874t6x3zz370pjdfmpcye0da9ms3lz",
+    "fields": {
+        "session_data": ".eJxVjDEOAiEQRe9CbYjAAGJp7xkIMwOyaiBZdivj3XWTLbT9773_EjGtS43ryHOcWJyFEoffDRM9ctsA31O7dUm9LfOEclPkToe8ds7Py-7-HdQ06rc2GiAXZEeAfLIpkIECYBwpMDpoXzAUwmwVp0JBMRiL5UienAvgg3h_APTYOEI:1uybYX:kQghc7TaQ5dHUJyJNDNeYhpnMeFo_93iEEjr7a85BL4",
+        "expire_date": "2025-09-30T19:41:37.226Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6t90ly4qvvyn1ec1n184q1vz0wz3il63",
+    "fields": {
+        "session_data": ".eJxVjjkOwyAURO9CHSHMjsv0OQP6mE9MFogMrqLcPbbkxu28N6P5Et-wtVyLzyV33_MbW4f3x5NxMMpxzZiQVBnOGbMX4mHts18bLj5HMpKBnLIA0xPLDuIDyr3SqZa-5EB3hR600VuN-Loe7mlghjZvbScMUzYxbrVDZVwCZCAGZaMYrA7aRNQBbQRho5u0TC7IZLankjMUIMnvD-IYRao:1v3ftr:eZH0mk0mHy020QqHk0nEQeCxWgPM9jRtrcxSedEZU9I",
+        "expire_date": "2025-10-14T19:20:35.089Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7xj4pzt9vvzeoqd54lsgk9jceisy79ax",
+    "fields": {
+        "session_data": "e30:1v3WHG:ouGn40vfuyVbAUxYV-s1tx7C4o1DCIA1OrmAVJ8hTyw",
+        "expire_date": "2025-10-14T09:04:06.895Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9lw755flao6i1thywu6ngddga0m81ay1",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSFQ3l269xvIpVwsasEUujL-uzbpptszM-dDfMPWci0-l9x9zwu2Dsvbk5Eb5QYuBTfUDpYxbi7Ew9ZnvzVcfY5kJJyctgDTE8sO4gPKvdKplr7mQHeFHrTRW434uh7u6WCGNv9rJwxTNrHBaofKuATIQHBlo-BWB20i6oA2grDRTVomF2QyTEg5MBQgyfcH5ZRFrw:1v3U0U:dZx0zD959DY6SDv7l4av3Vo_L_6Vw_qRthXCdz6Hdwo",
+        "expire_date": "2025-10-14T06:38:38.225Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dquxsg0g6mm2ysw2j29qqtgnustnsw7a",
+    "fields": {
+        "session_data": "e30:1uxgwZ:2_3BJUzk3rFbdJ23LDyLKvQEWMMXvgYaJDCTXz42aAY",
+        "expire_date": "2025-09-28T07:14:39.059Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eyrb55wbghftaofkb34lnx8sgb86fsyi",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSFQ3l269xvIpVwsasEUujL-uzbpptszM-dDfMPWci0-l9x9zwu2Dsvbk5EbzbixijPKnZAD1xfiYeuz3xquPkcyEk5OW4DpiWUH8QHlXulUS19zoLtCD9rorUZ8XQ_3dDBDm_-1E4Ypm9hgtUNlXAJkILiyUXCrgzYRdUAbQdjoJi2TCzIZJqQcGAqQ5PsD4q1Fqw:1v7Wpy:FvU10J2mzhLz7_8IrmB_KqRvVmKh1eD6j_exwUPXjX0",
+        "expire_date": "2025-10-25T10:28:30.238Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lirjo41qrfwpsdzlc5mrrcbiv2v0dbw4",
+    "fields": {
+        "session_data": ".eJxVjTsOwyAQRO9CHSHwYj4u0-cMaDHrmHwgMriKcvfYkouknTfz5s08rm32a6XFp8gGJtnpNws43invIN4wXwsfS25LCnyv8INWfimRHuej-yeYsc7b2oERvZ1EZ7Wj3rgJSSDI3kaQVgdtIulANiLY6EatJhfUZAQo1QkCVLu0Uq2pZJ9yar6lJ9WGz5dngzRaSGNMB9xZB9vX5wsxgEXG:1v7WdI:ktP6Kx6_uzLSc5o92BH-6I8x3xjwH4fmCKYm9hwa_1g",
+        "expire_date": "2025-10-25T10:15:24.041Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n2t600gdlrn74i7wbc2sdxwbww6iit9k",
+    "fields": {
+        "session_data": ".eJxVjDEOAiEQRe9CbYjAAGJp7xkIMwOyaiBZdivj3XWTLbT9773_EjGtS43ryHOcWJyFEoffDRM9ctsA31O7dUm9LfOEclPkToe8ds7Py-7-HdQ06rc2GiAXZEeAfLIpkIECYBwpMDpoXzAUwmwVp0JBMRiL5UienAvgg3h_APTYOEI:1uxrab:T9a4r5Vw49_VSZ3Xf8faq-EZ6rLbKgjPuLxooscWpVw",
+        "expire_date": "2025-09-28T18:36:41.713Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "p4anwv2spk0ih66qfat4q9mmdkmphat7",
+    "fields": {
+        "session_data": "e30:1v3KXF:l6TDz5LKVJMeQyhV1AKSuC2kuwWI-8OePDXLpnL43RU",
+        "expire_date": "2025-10-13T20:31:49.239Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ub4hly2b42yu8ylmtjau5iometwu02mm",
+    "fields": {
+        "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3NTkxNDQ2NTEuNjAxMTM2fQ:1v3Bsp:noVDGUduH1o9QgECmddcsjUzFMOqoJwKox-XOskAvtA",
+        "expire_date": "2025-10-13T11:17:31.642Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w2rdoxhsnm0pwm9mlvdano3e1vh2af0o",
+    "fields": {
+        "session_data": ".eJxVjs1OwzAQhN_F5yjy-t89cucJELLczaYxtHYVO1yqvjtOAaHeVjPfzM6NhUq1ppJDyqmFli5UW7xcAzuA1V55pY0bjZXKy4HVgimeI2LZcgsdbFTZ4XYf2J8Wt7ZQbglj20sv1JYydebtxn5udnhuYT3b_p8pOYIAMMoN7LqWrzTR2iOnUk5n6uyW9gbg3IO03ID34IUVGjiw-_vAHgPCVmkND1I59iQeI35S3p3pI-ZTGbHktqbjuCPjr1vH1zLR-eWXfSpYYl16mpwQiNpZpWF2QhsA7t08Ic5RkzdC8QgohbRGmUmAMFw6NGSlUArnPvYbPL15DQ:1v4eue:saR8bYwMtai5EaUdY00gZZ3KmO27yVq_EmBJ7Spu5uQ",
+        "expire_date": "2025-10-17T12:29:28.703Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yslp6dgchsv4rie9hzguwpy2u3601yok",
+    "fields": {
+        "session_data": ".eJxVjDEOAiEQRe9CbYjAAGJp7xkIMwOyaiBZdivj3XWTLbT9773_EjGtS43ryHOcWJyFEoffDRM9ctsA31O7dUm9LfOEclPkToe8ds7Py-7-HdQ06rc2GiAXZEeAfLIpkIECYBwpMDpoXzAUwmwVp0JBMRiL5UienAvgg3h_APTYOEI:1uyEZI:fn3j_pGZrdU35T0BKvHcTufht3MalDewOBMkSxTt-EE",
+        "expire_date": "2025-09-29T19:08:52.958Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "gkartz.in",
+        "name": "gkartz.in"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 1,
+    "fields": {
+        "category_name": "Shirts",
+        "slug": "shirts",
+        "description": "This product is from shirt category",
+        "category_image": "photos/categories/shirts.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 2,
+    "fields": {
+        "category_name": "T Shirts",
+        "slug": "t-shirts",
+        "description": "This product category is T Shirt",
+        "category_image": "photos/categories/tshirts.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 3,
+    "fields": {
+        "category_name": "Jeans",
+        "slug": "jeans",
+        "description": "This product category is jeans",
+        "category_image": "photos/categories/jeans.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 4,
+    "fields": {
+        "category_name": "Jacket",
+        "slug": "jacket",
+        "description": "This product category is jacket",
+        "category_image": "photos/categories/jackets.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 5,
+    "fields": {
+        "category_name": "Shoes",
+        "slug": "shoes",
+        "description": "This product category is shoes",
+        "category_image": "photos/categories/shoes.png"
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$FLz7hXZw5spfoCEdN776Ev$Yi29Fqhi4wJ0SsfwhoBfO4DSs3NohGMZRr6XGjtpQX8=",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "username": "gkart",
+        "email": "dev.suraj@gmail.com",
+        "mobile_number": "9140419664",
+        "date_joined": "2025-09-05T10:12:25.361Z",
+        "last_login": "2025-10-11T10:11:21.244Z",
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": true,
+        "is_superadmin": true
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$YQ5JOvagwEaLafhN3mRl3t$/qCPHoah6JKJVMSBCHQY0TQTSfqj/L6Gg/fy3Hva/hw=",
+        "first_name": "sam",
+        "last_name": "gupta",
+        "username": "sam.gupta",
+        "email": "sam.gupta@gmail.com",
+        "mobile_number": "0987654321",
+        "date_joined": "2025-09-09T18:27:37.874Z",
+        "last_login": "2025-09-09T18:27:38.190Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$51PIQxBE7XdYUEAWyBo2N2$GMVGumTdyo+qgFg8FW3VgRYe3zSHcsx4e3a2SDkjFJU=",
+        "first_name": "alex",
+        "last_name": "gupta",
+        "username": "alex.gupta",
+        "email": "alex.gupta@gmail.com",
+        "mobile_number": "1234567890",
+        "date_joined": "2025-09-09T18:39:53.725Z",
+        "last_login": "2025-09-09T18:39:54.201Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$YV0W4kI33YpgN1UItXazBH$4PKk1xb5tJg3YWjm0hwb2hOCFr2OooaHSy2gaqwbsjg=",
+        "first_name": "john",
+        "last_name": "doe",
+        "username": "john",
+        "email": "john@gmail.com",
+        "mobile_number": "09140419663",
+        "date_joined": "2025-09-09T18:59:40.679Z",
+        "last_login": "2025-09-09T18:59:41.127Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$dwdBEWG3dkxWSt7LPPfzXn$dOvQdMmn7vYkUHlHL8X0WcuH6mlLqrS1RnIzybvtK7s=",
+        "first_name": "john",
+        "last_name": "doe",
+        "username": "john123",
+        "email": "john123@gmail.com",
+        "mobile_number": "09140419663",
+        "date_joined": "2025-09-09T19:00:53.017Z",
+        "last_login": "2025-09-09T19:00:53.218Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$XH8xZt14hg9S6Sd9XQ5H34$5ugk2rh7NhYFPWTjM1XW6iGRkPnu+7cO/vjejSlsOog=",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "username": "suraj.sde",
+        "email": "suraj.sde@gmail.com",
+        "mobile_number": "09140419663",
+        "date_joined": "2025-09-09T19:05:59.807Z",
+        "last_login": "2025-09-09T19:06:00.276Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$7C7Yf60KBKjVGs8xYZYqyY$8kBMpm1lTq0bhNUf8BknBEyj1hAVhj6DStpptMeKPj0=",
+        "first_name": "suraj",
+        "last_name": "gupta",
+        "username": "surajguptanew63",
+        "email": "surajguptanew63@gmail.com",
+        "mobile_number": "9140419663",
+        "date_joined": "2025-09-12T19:35:39.630Z",
+        "last_login": "2025-09-17T18:29:11.857Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$uBwcAkukCFCaPT1fSq0vX3$AybQosFA0BUDQJtEl+1KYubDH9B0312PXo7L09qFQEs=",
+        "first_name": "Test",
+        "last_name": "test",
+        "username": "test",
+        "email": "test@gmail.com",
+        "mobile_number": "789456123",
+        "date_joined": "2025-09-16T19:38:12.208Z",
+        "last_login": "2025-09-16T19:38:12.725Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$nngl8E27xDxwOcY2z2QpWy$cSnAoxemPG7nvGVuSvcOGttyoOgfD+QRa3OGL4l624c=",
+        "first_name": "Shreya",
+        "last_name": "Sharma",
+        "username": "shreyat9646",
+        "email": "shreyat9646@gmail.com",
+        "mobile_number": "9140419663",
+        "date_joined": "2025-09-16T19:39:23.903Z",
+        "last_login": "2025-09-16T20:46:14.505Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "!RCjWfVPLZFoYK0b2njQhhEKFkHSyUktxAUaHUGaz",
+        "first_name": "GKart",
+        "last_name": "",
+        "username": "GKart",
+        "email": "business.gkart@gmail.com",
+        "mobile_number": "",
+        "date_joined": "2025-09-30T19:20:54.384Z",
+        "last_login": "2025-09-30T19:20:54.771Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "!6imRLYrvQ8tRTny3j84n1dzNOu1Zkdx0e0ncjmc9",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "username": "suraj_gupta",
+        "email": "surajgupta689800@gmail.com",
+        "mobile_number": "09140419663",
+        "date_joined": "2025-10-01T08:20:00.033Z",
+        "last_login": "2025-10-03T12:29:24.998Z",
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": true,
+        "is_superadmin": true
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "profile_picture": "userprofile/user_avatar_2.png",
+        "address_line_1": "Maharajganj, Uttar Pradesh 273157",
+        "address_line_2": "BMJ",
+        "pin_code": "273157",
+        "city": "Maharajganj",
+        "state": "Uttar Pradesh",
+        "country": "India"
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "test@gmail.com"
+        ],
+        "profile_picture": "default/default_user.png",
+        "address_line_1": "",
+        "address_line_2": "",
+        "pin_code": "",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "shreyat9646@gmail.com"
+        ],
+        "profile_picture": "default/default_user.png",
+        "address_line_1": "",
+        "address_line_2": "",
+        "pin_code": "",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 28,
+    "fields": {
+        "user": [
+            "business.gkart@gmail.com"
+        ],
+        "profile_picture": "default/default_user.png",
+        "address_line_1": "",
+        "address_line_2": "",
+        "pin_code": "",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+        "product_name": "ATX Jeans",
+        "slug": "atx-jeans",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 499,
+        "product_images": "photos/products/ATX-Jeans.jpg",
+        "stock": 184,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2025-09-05T11:18:11.873Z",
+        "updated_at": "2025-10-11T10:22:52.189Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+        "product_name": "Blue Shirt",
+        "slug": "blue-shirt",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 299,
+        "product_images": "photos/products/Blue-Shirt.jpg",
+        "stock": 300,
+        "is_available": true,
+        "category": 1,
+        "created_at": "2025-09-05T11:18:54.693Z",
+        "updated_at": "2025-09-05T11:18:54.693Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+        "product_name": "Great T Shirt",
+        "slug": "great-t-shirt",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 199,
+        "product_images": "photos/products/Great-Tshirt.jpg",
+        "stock": 500,
+        "is_available": true,
+        "category": 2,
+        "created_at": "2025-09-05T11:19:36.767Z",
+        "updated_at": "2025-09-05T11:19:36.767Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+        "product_name": "Blue Jeans",
+        "slug": "blue-jeans",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 399,
+        "product_images": "photos/products/image2.jpg",
+        "stock": 100,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2025-09-05T11:20:31.762Z",
+        "updated_at": "2025-09-05T11:20:31.762Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+        "product_name": "jordan True Flight Basketball Shoes",
+        "slug": "jordan-true-flight-basketball-shoes",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 1999,
+        "product_images": "photos/products/jordan-true-flight-basketball-shoes.jpg",
+        "stock": 50,
+        "is_available": true,
+        "category": 5,
+        "created_at": "2025-09-05T11:23:24.727Z",
+        "updated_at": "2025-09-05T11:23:24.727Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+        "product_name": "Mavi Jeans",
+        "slug": "mavi-jeans",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 799,
+        "product_images": "photos/products/Mavi_jeans.jpg",
+        "stock": 150,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2025-09-05T11:23:57.661Z",
+        "updated_at": "2025-09-05T11:23:57.661Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+        "product_name": "Puma Ferrari Shoes",
+        "slug": "puma-ferrari-shoes",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 1799,
+        "product_images": "photos/products/Puma-Ferrari-Shoes.jpg",
+        "stock": 100,
+        "is_available": true,
+        "category": 5,
+        "created_at": "2025-09-05T11:24:40.058Z",
+        "updated_at": "2025-09-05T11:24:40.058Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+        "product_name": "Skretch Jeans",
+        "slug": "skretch-jeans",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 599,
+        "product_images": "photos/products/Skretch_Jeans.jpg",
+        "stock": 120,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2025-09-05T11:25:29.813Z",
+        "updated_at": "2025-09-05T11:25:29.813Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+        "product_name": "Sparky Jeans",
+        "slug": "sparky-jeans",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 1299,
+        "product_images": "photos/products/Sparky_Jeans.jpg",
+        "stock": 30,
+        "is_available": true,
+        "category": 3,
+        "created_at": "2025-09-05T11:25:55.406Z",
+        "updated_at": "2025-09-05T11:25:55.406Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+        "product_name": "US Polo Assn Jacket",
+        "slug": "us-polo-assn-jacket",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 4999,
+        "product_images": "photos/products/US-Polo-Assn_Jacket.jpg",
+        "stock": 20,
+        "is_available": true,
+        "category": 4,
+        "created_at": "2025-09-05T11:26:48.300Z",
+        "updated_at": "2025-09-05T11:26:48.300Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+        "product_name": "Wrangler Shirt",
+        "slug": "wrangler-shirt",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+        "price": 299,
+        "product_images": "photos/products/Wrangler-Shirt.jpg",
+        "stock": 0,
+        "is_available": true,
+        "category": 1,
+        "created_at": "2025-09-05T11:27:33.161Z",
+        "updated_at": "2025-09-17T17:27:04.855Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "blue",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 2,
+    "fields": {
+        "product": 3,
+        "variation_category": "color",
+        "variation_value": "red",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 4,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Small",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 5,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Medium",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 6,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Large",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 7,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "Grey",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 8,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "light blue",
+        "is_active": true,
+        "created_date": "2025-09-09T06:01:44.381Z"
+    }
+},
+{
+    "model": "store.reviewrating",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "subject": "Best",
+        "review": "Best Product",
+        "rating": 4.0,
+        "ip": "127.0.0.1",
+        "status": true,
+        "created_at": "2025-09-15T19:13:17.425Z",
+        "updated_at": "2025-09-15T19:13:59.821Z"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 1,
+    "fields": {
+        "product": 11,
+        "image": "store/products/user_avatar.png"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "image": "store/products/Mavi_jeans_bd5Dpm7.jpg"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "image": "store/products/Sparky_Jeans.jpg"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 10,
+    "fields": {
+        "cart_id": "inpptrq0oflspz6jwtujwogxakwqotw4",
+        "date_added": "2025-09-14"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 11,
+    "fields": {
+        "cart_id": "u91jt64y2ygwnq1k8brb7ltheenospbm",
+        "date_added": "2025-09-14"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 12,
+    "fields": {
+        "cart_id": "acnllo42hhllrzxfkcdnl1yr9pqhlbzt",
+        "date_added": "2025-09-14"
+    }
+},
+{
+    "model": "carts.cartitem",
+    "pk": 53,
+    "fields": {
+        "user": null,
+        "product": 1,
+        "cart": 10,
+        "quantity": 1,
+        "is_active": true,
+        "variations": [
+            8,
+            6
+        ]
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "9TS74517X40573832",
+        "payment_method": "PayPal",
+        "amount_paid": "2544.9",
+        "status": "COMPLETED",
+        "created_at": "2025-09-14T18:35:39.553Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "8L86714309057245Y",
+        "payment_method": "PayPal",
+        "amount_paid": "2544.9",
+        "status": "COMPLETED",
+        "created_at": "2025-09-14T18:59:36.333Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "9GY5794223142824Y",
+        "payment_method": "PayPal",
+        "amount_paid": "2544.9",
+        "status": "COMPLETED",
+        "created_at": "2025-09-14T19:04:40.206Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "5VY745200P294773T",
+        "payment_method": "PayPal",
+        "amount_paid": "2544.9",
+        "status": "COMPLETED",
+        "created_at": "2025-09-14T19:11:40.714Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "payment_id": "1CB69301XS6034100",
+        "payment_method": "PayPal",
+        "amount_paid": "1526.94",
+        "status": "COMPLETED",
+        "created_at": "2025-09-14T19:28:06.038Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "payment_id": "6JD89047EH235962E",
+        "payment_method": "PayPal",
+        "amount_paid": "508.98",
+        "status": "COMPLETED",
+        "created_at": "2025-09-15T17:40:07.470Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "payment_id": "1RB66421CK941221J",
+        "payment_method": "PayPal",
+        "amount_paid": "1526.94",
+        "status": "COMPLETED",
+        "created_at": "2025-09-15T18:00:09.238Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "payment_id": "1GY49143UM3283233",
+        "payment_method": "PayPal",
+        "amount_paid": "508.98",
+        "status": "COMPLETED",
+        "created_at": "2025-09-15T19:12:28.631Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "pay_RS7r32HVYj7IlZ",
+        "payment_method": "Razorpay",
+        "amount_paid": "508.98",
+        "status": "Completed",
+        "created_at": "2025-10-11T10:02:21.064Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "05V69860DW157405P",
+        "payment_method": "PayPal",
+        "amount_paid": "508.98",
+        "status": "COMPLETED",
+        "created_at": "2025-10-11T10:14:50.626Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment_id": "pay_RS8ChZAC7H7MEK",
+        "payment_method": "Razorpay",
+        "amount_paid": "508.98",
+        "status": "Completed",
+        "created_at": "2025-10-11T10:22:51.139Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 41,
+    "fields": {
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "payment": 8,
+        "order_number": "1609202541",
+        "first_name": "Manoj",
+        "last_name": "Gupta",
+        "phone": "09140419663",
+        "email": "manoj@gmail.com",
+        "address_line_1": "Maharajganj, Uttar Pradesh 273157",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Maharajganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2025-09-15T19:11:59.630Z",
+        "updated_at": "2025-09-15T19:12:28.852Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 42,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202542",
+        "first_name": "Suraj",
+        "last_name": "GKart",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T09:34:52.176Z",
+        "updated_at": "2025-10-11T09:34:52.410Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 43,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202543",
+        "first_name": "Suraj",
+        "last_name": "GKart",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T09:39:37.726Z",
+        "updated_at": "2025-10-11T09:39:38.198Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 44,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202544",
+        "first_name": "Suraj",
+        "last_name": "GKart",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T09:40:16.968Z",
+        "updated_at": "2025-10-11T09:40:17.441Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 45,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202545",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "9140419663",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T09:41:34.970Z",
+        "updated_at": "2025-10-11T09:41:35.450Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 46,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202546",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "9140419663",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T09:45:14.662Z",
+        "updated_at": "2025-10-11T09:45:15.131Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 47,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": 9,
+        "order_number": "1110202547",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "9140419663",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2025-10-11T09:54:17.689Z",
+        "updated_at": "2025-10-11T10:02:21.842Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 48,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": 10,
+        "order_number": "1110202548",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "yes",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Paypal",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2025-10-11T10:13:59.201Z",
+        "updated_at": "2025-10-11T10:14:51.158Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 49,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202549",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:17:10.299Z",
+        "updated_at": "2025-10-11T10:17:10.499Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 50,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202550",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:17:44.836Z",
+        "updated_at": "2025-10-11T10:17:45.041Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 51,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202551",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:18:20.466Z",
+        "updated_at": "2025-10-11T10:18:20.689Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 52,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202552",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:18:27.056Z",
+        "updated_at": "2025-10-11T10:18:27.289Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 53,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202553",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:18:56.741Z",
+        "updated_at": "2025-10-11T10:18:56.899Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 54,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202554",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:19:17.928Z",
+        "updated_at": "2025-10-11T10:19:18.170Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 55,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202555",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:19:34.722Z",
+        "updated_at": "2025-10-11T10:19:34.859Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 56,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202556",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:20:01.384Z",
+        "updated_at": "2025-10-11T10:20:01.603Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 57,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202557",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:20:46.460Z",
+        "updated_at": "2025-10-11T10:20:46.675Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 58,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "1110202558",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2025-10-11T10:21:05.539Z",
+        "updated_at": "2025-10-11T10:21:05.788Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 59,
+    "fields": {
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "payment": 11,
+        "order_number": "1110202559",
+        "first_name": "Suraj",
+        "last_name": "Gupta",
+        "phone": "09198118381",
+        "email": "business.gkart@gmail.com",
+        "address_line_1": "Aalamchak",
+        "address_line_2": "",
+        "pin_code": "273157",
+        "city": "Brijmanaganj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "order_note": "Razorpay",
+        "order_total": 508.98,
+        "tax": 9.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2025-10-11T10:21:32.882Z",
+        "updated_at": "2025-10-11T10:22:51.667Z"
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 15,
+    "fields": {
+        "order": 41,
+        "payment": 8,
+        "user": [
+            "surajguptanew63@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 499.0,
+        "ordered": true,
+        "created_at": "2025-09-15T19:12:28.973Z",
+        "updated_at": "2025-09-15T19:12:29.251Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 16,
+    "fields": {
+        "order": 47,
+        "payment": 9,
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 499.0,
+        "ordered": true,
+        "created_at": "2025-10-11T10:02:21.979Z",
+        "updated_at": "2025-10-11T10:02:22.220Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 17,
+    "fields": {
+        "order": 48,
+        "payment": 10,
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 499.0,
+        "ordered": true,
+        "created_at": "2025-10-11T10:14:51.289Z",
+        "updated_at": "2025-10-11T10:14:51.513Z",
+        "variations": [
+            7,
+            5
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 18,
+    "fields": {
+        "order": 59,
+        "payment": 11,
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 499.0,
+        "ordered": true,
+        "created_at": "2025-10-11T10:22:51.823Z",
+        "updated_at": "2025-10-11T10:22:52.067Z",
+        "variations": [
+            7,
+            6
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-09-05T10:37:41.999Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Shirts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-09-05T10:48:59.085Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "T Shirts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-09-05T10:49:21.783Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-09-05T10:49:39.845Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Jacket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-09-05T10:50:16.226Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-09-05T11:18:11.878Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-09-05T11:18:54.696Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "Blue Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-09-05T11:19:36.770Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Great T Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-09-05T11:20:31.766Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "Blue Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-09-05T11:23:24.731Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "jordan True Flight Basketball Shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-09-05T11:23:57.663Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "6",
+        "object_repr": "Mavi Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-09-05T11:24:40.061Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "7",
+        "object_repr": "Puma Ferrari Shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-09-05T11:25:29.839Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "8",
+        "object_repr": "Skretch Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-09-05T11:25:55.408Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "9",
+        "object_repr": "Sparky Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-09-05T11:26:48.304Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "10",
+        "object_repr": "US Polo Assn Jacket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-09-05T11:27:33.165Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "11",
+        "object_repr": "Wrangler Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-09-06T07:25:53.216Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "11",
+        "object_repr": "Wrangler Shirt",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-09-08T07:30:15.924Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX Jeans",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Product images\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-09-08T08:38:33.678Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "1",
+        "object_repr": "Variation object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-09-08T08:38:49.230Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "2",
+        "object_repr": "Variation object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-09-08T08:39:01.473Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "3",
+        "object_repr": "Variation object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-09-08T08:59:47.316Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "3",
+        "object_repr": "Variation object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-09-08T09:00:56.515Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "4",
+        "object_repr": "Variation object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-09-08T09:15:18.260Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "4",
+        "object_repr": "Small",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Variation category\", \"Variation value\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-09-08T09:15:30.695Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "5",
+        "object_repr": "Medium",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-09-08T09:15:40.006Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "6",
+        "object_repr": "Large",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-09-08T09:15:49.467Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "7",
+        "object_repr": "Grey",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-09-08T09:16:29.325Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "8",
+        "object_repr": "light blue",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-09-08T11:07:31.165Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "19",
+        "object_repr": "CartItem object (19)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-09-09T20:24:48.260Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "7",
+        "object_repr": "surajguptanew63@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-09-09T20:27:42.240Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "8",
+        "object_repr": "surajguptanew63@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-09-09T20:29:10.813Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "9",
+        "object_repr": "surajguptanew63@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-09-12T19:11:44.380Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "10",
+        "object_repr": "surajguptanew63@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-09-12T19:33:22.116Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "11",
+        "object_repr": "surajguptanew63@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-09-13T11:06:10.602Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "34",
+        "object_repr": "CartItem object (34)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-09-13T11:06:10.602Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "33",
+        "object_repr": "CartItem object (33)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-09-13T11:08:04.262Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "35",
+        "object_repr": "CartItem object (35)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "46",
+        "object_repr": "CartItem object (46)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "45",
+        "object_repr": "CartItem object (45)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "39",
+        "object_repr": "CartItem object (39)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "38",
+        "object_repr": "CartItem object (38)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "37",
+        "object_repr": "CartItem object (37)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-09-13T11:43:37.680Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "36",
+        "object_repr": "CartItem object (36)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "7",
+        "object_repr": "zw6m33pg6rykpxyr5trpis7w1vsx142l",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "6",
+        "object_repr": "p775s9lq3dacy5pk4jz44i9yp8gezuho",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "5",
+        "object_repr": "nifmqsrixskworcqhxmq8vxx00dk8fur",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "4",
+        "object_repr": "6n56kuh8gps7z6c404nu7erea4udqapx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "3",
+        "object_repr": "bcud39909szr2spbl5sz9f4gz6u1om6o",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "2",
+        "object_repr": "ptfzwyvrg5tvfwmfzp82q11junfq69tv",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2025-09-13T11:43:49.516Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "1",
+        "object_repr": "s2bzl5v75chjkoyz58lt1v37lkkc7ma0",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2025-09-14T06:42:48.297Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "49",
+        "object_repr": "CartItem object (49)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2025-09-14T06:42:48.297Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "48",
+        "object_repr": "CartItem object (48)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2025-09-14T06:42:48.297Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "47",
+        "object_repr": "CartItem object (47)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2025-09-14T06:46:42.733Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "51",
+        "object_repr": "CartItem object (51)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2025-09-14T06:46:42.733Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cartitem"
+        ],
+        "object_id": "50",
+        "object_repr": "CartItem object (50)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2025-09-14T06:46:51.873Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "9",
+        "object_repr": "eveydglo5sbxyol36lgc3g6ohu0m79s9",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2025-09-14T06:46:51.873Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "carts",
+            "cart"
+        ],
+        "object_id": "8",
+        "object_repr": "xmocg6cs8xaswaa38ajc028yqyh3mit7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2025-09-14T16:31:00.893Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "1",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2025-09-14T16:32:24.255Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "40",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "39",
+        "object_repr": "Manoj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "38",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "37",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "36",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "35",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "34",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "33",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "32",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "31",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "30",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "29",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "28",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "27",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "26",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "25",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "24",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "23",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "22",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2025-09-15T19:09:04.608Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "21",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "20",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "19",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "18",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "17",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "16",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "15",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "14",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "13",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "12",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "11",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "10",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "9",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "8",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "7",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "6",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "5",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "4",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2025-09-15T19:09:30.585Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "object_id": "3",
+        "object_repr": "Suraj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2025-09-16T18:07:02.694Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "userprofile"
+        ],
+        "object_id": "1",
+        "object_repr": "Suraj",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2025-09-17T17:27:04.870Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "11",
+        "object_repr": "Wrangler Shirt",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Wrangler Shirt\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2025-09-17T17:31:44.601Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX Jeans",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX Jeans\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2025-09-17T17:32:20.379Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX Jeans",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX Jeans\"}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"ATX Jeans\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2025-09-29T20:29:35.181Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "15",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2025-09-29T20:30:09.338Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "16",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2025-09-29T20:30:52.372Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "example.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2025-09-30T05:06:27.726Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "17",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Last name\", \"Mobile number\", \"Is active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2025-09-30T05:15:59.905Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "17",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2025-09-30T05:18:12.050Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "18",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2025-09-30T05:38:30.898Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "19",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2025-09-30T06:22:30.708Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "20",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2025-09-30T06:26:50.340Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "21",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2025-09-30T06:34:03.548Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "22",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2025-09-30T06:38:37.841Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "23",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2025-09-30T06:53:45.671Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "24",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2025-09-30T07:05:36.619Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "25",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2025-09-30T07:14:55.746Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "26",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2025-09-30T07:17:40.370Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "27",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2025-09-30T07:21:37.557Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "28",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2025-09-30T07:27:52.453Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "29",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2025-09-30T07:30:26.579Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "30",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2025-09-30T07:33:53.176Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.1:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2025-09-30T07:34:10.532Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "31",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2025-09-30T08:22:12.286Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "32",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2025-09-30T08:36:03.026Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "33",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2025-09-30T08:38:33.329Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "34",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2025-09-30T08:42:23.886Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "35",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2025-09-30T08:44:54.924Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "36",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2025-09-30T09:05:25.288Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "37",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2025-09-30T09:13:52.006Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "38",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2025-09-30T10:10:55.856Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "39",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2025-09-30T10:36:28.215Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "40",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2025-09-30T10:49:06.822Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "41",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2025-09-30T10:58:17.920Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "42",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2025-09-30T10:59:52.052Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "43",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2025-09-30T19:16:04.473Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "44",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2025-09-30T19:18:07.862Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "45",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2025-09-30T19:20:34.583Z",
+        "user": [
+            "dev.suraj@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "46",
+        "object_repr": "business.gkart@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
