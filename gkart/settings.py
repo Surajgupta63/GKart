@@ -59,7 +59,6 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 SITE_ID = 1
-ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -218,12 +217,26 @@ ACCOUNT_ADAPTER = 'accounts.adapters.CustomAccountAdapter'
 SOCIALACCOUNT_ADAPTER = 'accounts.adapters.CustomSocialAccountAdapter'
 
 
-if RDS_DB_NAME:
-    DEFAULT_DOMAIN = "gkartz.in"
-else:
-    DEFAULT_DOMAIN = "127.0.0.1:8000"
-
-
 # Razorpay
 RAZORPAY_KEY_ID = config("RAZORPAY_KEY_ID")
 RAZORPAY_KEY_SECRET = config("RAZORPAY_KEY_SECRET")
+
+# Determine Environment
+IS_PRODUCTION = not config('DEBUG', cast=bool)
+# Set the domain based on environment
+DEFAULT_DOMAIN = "gkartz.in" if IS_PRODUCTION else "127.0.0.1:8000"
+
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https" if IS_PRODUCTION else "http"
+
+# --- Auto-fix for Site domain ---
+from django.db.utils import OperationalError
+from django.contrib.sites.models import Site
+
+try:
+    site, created = Site.objects.get_or_create(id=1)
+    site.domain = DEFAULT_DOMAIN
+    site.name = DEFAULT_DOMAIN
+    site.save()
+except OperationalError:
+    # Database might not be ready yet (e.g., during collectstatic)
+    pass
