@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', "gkartz.in", "www.gkartz.in"]
+ALLOWED_HOSTS = ['django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', "gkartz.in", "www.gkartz.in", '127.0.0.1']
 
 INSTALLED_APPS = [
      # Django core apps
@@ -222,3 +222,9 @@ if DEBUG:
     DEFAULT_DOMAIN = "127.0.0.1:8000"
 else:
     DEFAULT_DOMAIN = "gkartz.in"
+
+
+
+# Razorpay
+RAZORPAY_KEY_ID = config("RAZORPAY_KEY_ID")
+RAZORPAY_KEY_SECRET = config("RAZORPAY_KEY_SECRET")

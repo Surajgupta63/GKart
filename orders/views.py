@@ -6,7 +6,10 @@ import datetime, json
 from store.models import Product
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
-from django.http import JsonResponse
+from django.http import HttpResponseBadRequest, JsonResponse
+
+import razorpay
+from django.conf import settings
 
 # Create your views here.
 def place_order(request, total=0, quantity=0):
@@ -152,3 +155,26 @@ def order_complete(request):
     
     except (Payment.DoesNotExist, Order.DoesNotExist):
         return redirect('home')
+
+# -------------------------
+# Razorpay: create order (AJAX) - called from frontend
+# -------------------------
+def create_razorpay_order(request):
+    try:
+        data = json.loads(request.body)
+        amount = int(float(data.get("amount")) * 100)
+        client = razorpay.Client(auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRET))
+        razorpay_order = client.order.create({
+            "amount": amount,
+            "currency": "INR",
+            "payment_capture": 1
+        })
+        return JsonResponse({
+            "order_id": razorpay_order["id"],
+            "amount": razorpay_order["amount"],
+            "key": settings.RAZORPAY_KEY_ID
+        })
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=400)
+
+    # return JsonResponse({"error": "Invalid request"}, status=400)
