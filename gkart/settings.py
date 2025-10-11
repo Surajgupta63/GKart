@@ -222,8 +222,9 @@ RAZORPAY_KEY_ID = config("RAZORPAY_KEY_ID")
 RAZORPAY_KEY_SECRET = config("RAZORPAY_KEY_SECRET")
 
 # Determine Environment
-IS_PRODUCTION = not config('DEBUG', cast=bool)
-# Set the domain based on environment
-DEFAULT_DOMAIN = "gkartz.in" if IS_PRODUCTION else "127.0.0.1:8000"
+if DEBUG:
+    DEFAULT_DOMAIN = "127.0.0.1:8000"
+else:
+    DEFAULT_DOMAIN = "gkartz.in"
 
-ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https" if IS_PRODUCTION else "http"
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https" if DEBUG else "http"
