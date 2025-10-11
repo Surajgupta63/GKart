@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('suraj-admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('store/', include('store.urls')),
     path('cart/', include('carts.urls')),
@@ -13,7 +13,5 @@ urlpatterns = [
     path('orders/', include('orders.urls')),
 
     path('accounts/', include('allauth.urls')),  ## social auth urls
-
-    path("health/", views.health_check),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -14,7 +14,3 @@ def home(request):
         "reviews": reviews
     }
     return render(request, 'home.html', context)
-
-
-def health_check(request):
-    return JsonResponse({"status": "ok"})
