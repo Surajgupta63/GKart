@@ -227,16 +227,3 @@ IS_PRODUCTION = not config('DEBUG', cast=bool)
 DEFAULT_DOMAIN = "gkartz.in" if IS_PRODUCTION else "127.0.0.1:8000"
 
 ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https" if IS_PRODUCTION else "http"
-
-# --- Auto-fix for Site domain ---
-from django.db.utils import OperationalError
-from django.contrib.sites.models import Site
-
-try:
-    site, created = Site.objects.get_or_create(id=1)
-    site.domain = DEFAULT_DOMAIN
-    site.name = DEFAULT_DOMAIN
-    site.save()
-except OperationalError:
-    # Database might not be ready yet (e.g., during collectstatic)
-    pass
