@@ -218,7 +218,7 @@ ACCOUNT_ADAPTER = 'accounts.adapters.CustomAccountAdapter'
 SOCIALACCOUNT_ADAPTER = 'accounts.adapters.CustomSocialAccountAdapter'
 
 
-if DEBUG:
+if RDS_DB_NAME:
     DEFAULT_DOMAIN = "127.0.0.1:8000"
 else:
     DEFAULT_DOMAIN = "gkartz.in"
