@@ -7,10 +7,16 @@
 
 <!-- ============================ COMPONENT LOGIN   ================================= -->
 {% if request.GET.command == "verification" %}
-<div class="container mx-auto alert alert-info text-center" role="alert" style="max-width: 380px; margin-top:100px;">
+{% include "includes/alerts.html" %}
+<div class="container mx-auto alert alert-info text-center" role="alert" style="max-width: 520px; margin-top:100px;">
 Thank you for registering with us. We have sent you a verification email to your email address {{ request.GET.email }}. Please verify it.
 <br><br>
 Already verified? <a href="{% url 'login' %}">Login</a>
+<br><br>
+📧 Didn’t get the confirmation email?
+Check your Spam or Promotions folder.
+
+If it’s not there, make sure your email is correct or try a different address.
 {% else %}
 <div class="card mx-auto" style="max-width: 380px; margin-top:100px;">
     <div class="card-body">

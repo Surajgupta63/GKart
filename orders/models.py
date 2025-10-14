@@ -58,8 +58,9 @@ class Order(models.Model):
 
 class OrderProduct(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
-    payment = models.ForeignKey(Payment, on_delete=models.SET_NULL, blank=True, null=True)
-    user = models.ForeignKey(Account, on_delete=models.CASCADE)
+    payment = models.ForeignKey(Payment, on_delete=models.SET_NULL, blank=True, null=True, related_name='purchased_products')
+    user = models.ForeignKey(Account, on_delete=models.CASCADE) ## buyer
+    seller = models.ForeignKey(Account, on_delete=models.CASCADE, null=True, blank=True, related_name='sold_products')  # seller (new field added)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     variations = models.ManyToManyField(Variation, blank=True)
     quantity = models.IntegerField()

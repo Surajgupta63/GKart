@@ -8,8 +8,11 @@ from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
 from django.http import HttpResponseBadRequest, JsonResponse
 
+from core.utils import log_event
+
 import razorpay
 from django.conf import settings
+from core.utils import get_client_ip
 
 # Create your views here.
 def place_order(request, total=0, quantity=0):
@@ -43,7 +46,7 @@ def place_order(request, total=0, quantity=0):
             data.order_note = form.cleaned_data['order_note']
             data.order_total = grand_total
             data.tax = tax
-            data.ip = request.META.get('REMOTE_ADDR')
+            data.ip = get_client_ip(request)
             data.save()
             # Generating order number
             yr = int(datetime.date.today().strftime('%Y'))
@@ -55,6 +58,7 @@ def place_order(request, total=0, quantity=0):
             data.order_number = order_number
             data.save()
 
+
             order = Order.objects.get(user=current_user, is_ordered=False, order_number=order_number)
             context = {
                 'order': order,
@@ -63,6 +67,12 @@ def place_order(request, total=0, quantity=0):
                 'tax': tax,
                 'grand_total': grand_total,
             }
+            log_event(
+                event_type="order_placed",
+                request=request,
+                user=request.user,
+                extra={"order_id": order.id, "total": total, "tax": tax, "grand_total": grand_total}
+            )
             return render(request, 'orders/payments.html', context)
     
     return redirect('checkout')
@@ -81,6 +91,13 @@ def payments(request):
     )
     payment.save()
 
+    log_event(
+        event_type="payment_stored_in _db",
+        request=request,
+        user=request.user,
+        extra={"transaction_id": body['transID'], "payment_method": body['payment_method'], "amount_paid": order.order_total}
+    )
+
     order.payment = payment
     order.is_ordered = True
     order.save()
@@ -91,8 +108,9 @@ def payments(request):
         orderproduct = OrderProduct()
         orderproduct.order_id = order.id
         orderproduct.payment = payment
-        orderproduct.user_id = request.user.id
+        orderproduct.user_id = request.user.id ## buyer
         orderproduct.product_id = item.product_id
+        orderproduct.seller_id = item.product.owner.id  # seller assigned
         orderproduct.quantity = item.quantity
         orderproduct.product_price = item.product.price
         orderproduct.ordered = True
@@ -120,6 +138,13 @@ def payments(request):
     to_email = request.user.email
     send_email = EmailMessage(mail_subject, message, to=[to_email])
     send_email.send()
+
+    log_event(
+        event_type="sent_order_recieved_mail",
+        request=request,
+        user=request.user,
+        extra={"to_email": to_email, "status": "Successful", "order_number": order.order_number, 'transID': payment.payment_id}
+    )
 
      # Send order number and transaction id back to sendData method via JsonResponse
     data = {
@@ -150,10 +175,33 @@ def order_complete(request):
             'payment': payment,
             'subtotal': subtotal,
         }
+
+        log_event(
+            event_type="order_completed",
+            request=request,
+            user=request.user,
+            extra={
+                'order': order,
+                'ordered_products': ordered_products,
+                'order_number': order.order_number,
+                'transID': payment.payment_id,
+                'payment': payment,
+                'subtotal': subtotal,
+            }
+        )
         
         return render(request, 'orders/order_complete.html', context)
     
     except (Payment.DoesNotExist, Order.DoesNotExist):
+        log_event(
+            event_type="order_not_completed",
+            request=request,
+            user=request.user,
+            extra={
+                'order_number': order.order_number,
+                'transID': payment.payment_id
+            }
+        )
         return redirect('home')
 
 # -------------------------

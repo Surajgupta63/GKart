@@ -8,6 +8,8 @@ from carts.views import _cart_id
 import requests
 from orders.models import Order, OrderProduct
 
+from core.utils import log_event
+
 ## Email Verification libraries
 from django.contrib.sites.shortcuts import get_current_site
 from django.template.loader import render_to_string
@@ -18,8 +20,29 @@ from django.core.mail import EmailMessage
 
 # Create your views here.
 
+def send_verification_email(request, user, to_email):
+    ## Sending Verification Link To Email
+    current_site = get_current_site(request)
+    mail_subject = "Please Activate Your Account"
+    message = render_to_string('accounts/email_verification.html', {
+        "user": user,
+        "domain": current_site,
+        "uid": urlsafe_base64_encode(force_bytes(user.pk)),
+        "token": default_token_generator.make_token(user) 
+    })
+    send_email = EmailMessage(mail_subject, message, to=[to_email])
+    send_email.send()
+
 def register(request):
     if request.method == "POST":
+        email = request.POST.get('email')
+        inactive_user = Account.objects.filter(email=email, is_active=False).first()
+        if inactive_user:
+            to_email = email
+            send_verification_email(request, inactive_user, to_email)
+            messages.info(request, "You already registered but haven’t verified your email. We’ve sent a new confirmation link.")
+            return redirect('/accounts/login/?command=verification&email='+to_email)
+        
         form = RegistrationForm(request.POST)
         if form.is_valid():
             first_name = form.cleaned_data['first_name']
@@ -27,8 +50,9 @@ def register(request):
             email = form.cleaned_data['email']
             mobile_number = form.cleaned_data['mobile_number']
             password = form.cleaned_data['password']
-
+            
             username = email.split("@")[0]
+
             user = Account.objects.create_user(
                 first_name=first_name,
                 last_name=last_name,
@@ -46,20 +70,8 @@ def register(request):
             user_profile.save()
 
             ## Sending Verification Link To Email
-            currnet_site = get_current_site(request)
-            mail_subject = "Please Activate Your Account"
-            message = render_to_string('accounts/email_verification.html', {
-                "user": user,
-                "domain": currnet_site,
-                "uid": urlsafe_base64_encode(force_bytes(user.pk)),
-                "token": default_token_generator.make_token(user) 
-            })
-
-            to_email = email
-            send_email = EmailMessage(mail_subject, message, to=[to_email])
-            send_email.send()
-
-            # messages.success(request, f"Thank you for registering with us. We have sent you a verification email to your {to_email} email address. Please verify it.")
+            to_mail = email
+            send_verification_email(request, user, to_mail)
             return redirect('/accounts/login/?command=verification&email='+to_email)
     else:
         form = RegistrationForm()
@@ -117,6 +129,11 @@ def login(request):
             
             auth.login(request, user)
             messages.success(request, "You are logged in successfuly.")
+            log_event(
+                event_type="login",
+                request=request,
+                user=user
+            )
             url = request.META.get("HTTP_REFERER")
             try:
                 query = requests.utils.urlparse(url).query
@@ -127,6 +144,11 @@ def login(request):
                 return redirect('dashboard')
         else:
             messages.error(request, "invalid email or password.")
+            log_event(
+                event_type="invalid_login_creds",
+                request=request,
+                user=user
+            )
             return redirect('login')
 
     return render(request, 'accounts/login.html')
@@ -135,6 +157,11 @@ def login(request):
 def logout(request):
     auth.logout(request)
     messages.success(request, "You are logged out.")
+    log_event(
+        event_type="logout",
+        request=request,
+        user=request.user ## optional
+    )
     return redirect('login')
 
 def activate(request, uidb64, token):
@@ -148,9 +175,19 @@ def activate(request, uidb64, token):
         user.is_active = True
         user.save()
         messages.success(request, 'Congratulations! Your account is activated successfully.')
+        log_event(
+            event_type="register_link_activated",
+            request=request,
+            user=user
+        )
         return redirect('login')
 
     messages.error(request, 'Invalid activation link or expired. Please try again!')
+    log_event(
+        event_type="register_link_expired_or_invalid",
+        request=request,
+        user=user
+    )
     return redirect('register')
 
 @login_required(login_url='login')
@@ -190,10 +227,20 @@ def forgotPassword(request):
             # messages.success(request, f"Thank you for registering with us. We have sent you a verification email to your {to_email} email address. Please verify it.")
             # return redirect('/accounts/login/?command=reset_password&email='+to_email)
             messages.success(request, f"password reset email has been sent to your {to_email} email address.")
+            log_event(
+                event_type="forgot_password",
+                request=request,
+                user=user
+            )
             return redirect('login')
 
         else:
             messages.error(request, "email does not exist.")
+            log_event(
+                event_type="forgot_password_email_does_not_exist",
+                request=request,
+                user=user
+            )
             return redirect('forgotPassword')
 
     return render(request, "accounts/forgotPassword.html")
@@ -209,9 +256,19 @@ def reset_password_validate(request, uidb64, token):
         request.session['uid'] = uid
 
         messages.success(request, 'Link is verified. Please reset your password')
+        log_event(
+            event_type="reset_password_link_verified",
+            request=request,
+            user=user
+        )
         return redirect('resetPassword')
 
     messages.error(request, 'Invalid activation link or expired. Please try again!')
+    log_event(
+        event_type="Invalid activation link or expired. Please try again!",
+        request=request,
+        user=user
+    )
     return redirect('login')
 
 def resetPassword(request):
@@ -225,9 +282,21 @@ def resetPassword(request):
             user.set_password(password)
             user.save()
             messages.success(request, 'Password reset successfuly.')
+            log_event(
+                event_type="reset_password_successfully",
+                request=request,
+                user=user,
+                extra={"match": "Password matched!"}
+            )
             return redirect('login')
         else:
             messages.error(request, 'Password does not matched!')
+            log_event(
+                event_type="reset_password_not_successful",
+                request=request,
+                user=user,
+                extra={"match": "Password does not matched!"}
+            )
             return redirect('resetPassword')
     
     return render(request, 'accounts/resetPassword.html')
@@ -252,7 +321,13 @@ def edit_profile(request):
         if user_form.is_valid() and user_profile_form.is_valid():
             user_form.save()
             user_profile_form.save()
-            messages.success(request, "Your profile has been update.")
+            messages.success(request, "Your profile has been updated.")
+            log_event(
+                event_type="profile_updated",
+                request=request,
+                user=user_profile,
+                extra={"description": "Your profile has been updated."}
+            )
             return redirect('edit_profile')
     else:
         user_form = UserForm(instance=request.user)

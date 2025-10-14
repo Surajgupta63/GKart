@@ -1,5 +1,6 @@
 from django import forms
 from .models import Account, UserProfile
+from email_validator import validate_email, EmailNotValidError
 
 class RegistrationForm(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput())
@@ -25,9 +26,23 @@ class RegistrationForm(forms.ModelForm):
         
     def clean_email(self):
         email = self.cleaned_data.get('email')
-        if Account.objects.filter(email=email).exists():
+
+        # 1. Check if inactive user exists → allow form to pass
+        inactive_user = Account.objects.filter(email=email, is_active=False).first()
+        if inactive_user:
+            return email
+
+        # 2. Check if active user exists → raise error
+        active_user = Account.objects.filter(email=email, is_active=True).first()
+        if active_user:
             raise forms.ValidationError("email already exists.")
-        return email
+
+        # 3. Validate email deliverability
+        try:
+            valid = validate_email(email, check_deliverability=True)
+            return valid.email
+        except EmailNotValidError:
+            raise forms.ValidationError("Email does not exist")
 
 
 class UserForm(forms.ModelForm):

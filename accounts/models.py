@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 
 # Create your models here.
 
@@ -38,7 +38,7 @@ class MyAccountManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-class Account(AbstractBaseUser):
+class Account(AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     username = models.CharField(max_length=100, unique=True)
@@ -56,6 +56,7 @@ class Account(AbstractBaseUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username', 'first_name', 'last_name']
 
+
     objects = MyAccountManager()
 
     def full_name(self):
@@ -63,12 +64,21 @@ class Account(AbstractBaseUser):
     
     def __str__(self):
         return self.email
-
-    def has_perm(self, perm, obj=None):
-        return self.is_admin
     
-    def has_module_perms(self, add_label):
-        return True
+    @property
+    def is_superuser(self):
+        return self.is_superadmin
+
+
+    # def has_perm(self, perm, obj=None):
+    #     return super().has_perm(perm, obj) or self.is_admin
+    
+    # def has_module_perms(self, add_label):
+    #     if self.is_admin:
+    #         return True
+        
+    #     # Use Django's PermissionsMixin to check group permissions
+    #     return self.is_staff and self.user_permissions.exists() or self.groups.exists()
     
 
 class UserProfile(models.Model):

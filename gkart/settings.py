@@ -37,6 +37,9 @@ INSTALLED_APPS = [
 
     # Other third-party apps
     'storages',
+
+    ## Logger app
+    'core',
 ]
 
 ## for allauth
@@ -71,7 +74,54 @@ MIDDLEWARE = [
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
      # Add the account middleware:
     "allauth.account.middleware.AccountMiddleware",
+
+    "core.middleware.LogUserActivityMiddleware", ## for logging
 ]
+
+
+## Logger Settings
+LOGGING_DIR = os.path.join(BASE_DIR, 'logs')
+os.makedirs(LOGGING_DIR, exist_ok=True)
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "json": {
+            "format": "%(message)s",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "json",
+            "stream": open(1, "w", encoding="utf-8", closefd=False),
+        },
+        "file": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": os.path.join(LOGGING_DIR, "project.log"),
+            "maxBytes": 5*1024*1024,  # 5MB
+            "backupCount": 5,
+            "formatter": "json",
+            "encoding": "utf-8",
+        },
+    },
+    "loggers": {
+        "core": {
+            "handlers": ["console", "file"],
+            "level": "INFO",
+            "propagate": False,
+        },
+        "django": {
+            "handlers": ["console", "file"],
+            "level": "INFO",
+            "propagate": False,
+        },
+    },
+}
+
+
+
 
 SESSION_EXPIRE_SECONDS = 3600  # 1 hour
 SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
@@ -228,3 +278,14 @@ else:
     DEFAULT_DOMAIN = "gkartz.in"
 
 ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https" if DEBUG else "http"
+
+## IP Configuration
+from ipaddress import ip_network
+
+USE_X_FORWARDED_HOST = True
+USE_X_FORWARDED_PORT = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+TRUSTED_PROXIES = [ip_network("172.31.0.0/16")]
+
+CSRF_TRUSTED_ORIGINS = ['https://gkartz.in', 'https://www.gkartz.in']
