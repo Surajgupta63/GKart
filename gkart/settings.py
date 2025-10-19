@@ -80,7 +80,7 @@ MIDDLEWARE = [
 
 
 ## Logger Settings
-LOGGING_DIR = os.path.join(BASE_DIR, 'logs')
+LOGGING_DIR = "/tmp/logs"
 os.makedirs(LOGGING_DIR, exist_ok=True)
 
 LOGGING = {
@@ -88,31 +88,34 @@ LOGGING = {
     "disable_existing_loggers": False,
     "formatters": {
         "json": {
-            "format": "%(message)s",
+            "format": "%(asctime)s [%(levelname)s] %(name)s: %(message)s",
         },
     },
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
             "formatter": "json",
-            "stream": open(1, "w", encoding="utf-8", closefd=False),
         },
         "file": {
             "class": "logging.handlers.RotatingFileHandler",
             "filename": os.path.join(LOGGING_DIR, "project.log"),
-            "maxBytes": 5*1024*1024,  # 5MB
+            "maxBytes": 5 * 1024 * 1024,  # 5MB
             "backupCount": 5,
             "formatter": "json",
             "encoding": "utf-8",
         },
     },
+    "root": {
+        "handlers": ["console", "file"],
+        "level": "INFO",
+    },
     "loggers": {
-        "core": {
+        "django": {
             "handlers": ["console", "file"],
             "level": "INFO",
             "propagate": False,
         },
-        "django": {
+        "core": {
             "handlers": ["console", "file"],
             "level": "INFO",
             "propagate": False,
