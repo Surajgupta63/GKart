@@ -13,5 +13,6 @@ urlpatterns = [
     path('orders/', include('orders.urls')),
 
     path('accounts/', include('allauth.urls')),  ## social auth urls
+    path('health/', views.health, name='health'),  # for healtg checking
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
