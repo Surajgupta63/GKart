@@ -10,6 +10,8 @@ django-admin-thumbnails==0.2.9
 django-allauth==65.11.2
 django-session-timeout==0.1.0
 django-storages==1.14.6
+dnspython==2.8.0
+email-validator==2.3.0
 idna==3.10
 jmespath==1.0.1
 oauthlib==3.3.1
