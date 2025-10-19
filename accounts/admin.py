@@ -12,6 +12,7 @@ class AccountAdmin(UserAdmin):
     filter_horizontal = ()
     list_filter = ()
     fieldsets = ()
+    list_per_page = 10
 
 class UserProfileAdmin(admin.ModelAdmin):
     def thumbnail(self, object):

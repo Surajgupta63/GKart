@@ -11,6 +11,7 @@ class ProductAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ('product_name',)}
     list_display = ('product_name', 'price', 'stock', 'category', 'updated_at', 'is_available', 'owner')
     exclude = ('owner', )
+    list_per_page = 10
     inlines = [ProductGalleryInline]
 
     # Show only seller’s own products (superuser sees all)
