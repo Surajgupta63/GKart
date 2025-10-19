@@ -80,16 +80,16 @@ MIDDLEWARE = [
 
 
 ## Logger Settings
+import logging
 import sys
-LOGGING_DIR = "/tmp/logs"
-os.makedirs(LOGGING_DIR, exist_ok=True)
 
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
     "formatters": {
         "verbose": {
-            "format": "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+            "format": "[{levelname}] {asctime} {name}: {message}",
+            "style": "{",
         },
     },
     "handlers": {
@@ -98,23 +98,10 @@ LOGGING = {
             "stream": sys.stdout,
             "formatter": "verbose",
         },
-        "file": {
-            "class": "logging.FileHandler",
-            "filename": os.path.join(LOGGING_DIR, "project.log"),
-            "formatter": "verbose",
-            "encoding": "utf-8",
-        },
     },
     "root": {
-        "handlers": ["console", "file"],
+        "handlers": ["console"],
         "level": "INFO",
-    },
-    "loggers": {
-        "django": {
-            "handlers": ["console", "file"],
-            "level": "INFO",
-            "propagate": False,
-        },
     },
 }
 
