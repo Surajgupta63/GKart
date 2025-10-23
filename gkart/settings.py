@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ["gkartz.in", '.elasticbeanstalk.com', "www.gkartz.in", 'django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', '127.0.0.1', '172.31.16.235', '34.223.175.165']
+ALLOWED_HOSTS = ["gkartz.in", '.elasticbeanstalk.com', "www.gkartz.in", 'django-gkart-env.eba-48pbiapc.us-west-2.elasticbeanstalk.com', '127.0.0.1', '172.31.16.235', '34.223.175.165', '34.214.111.153']
 
 INSTALLED_APPS = [
      # Django core apps
