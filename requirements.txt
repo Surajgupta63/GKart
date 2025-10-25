@@ -12,11 +12,9 @@ django-session-timeout==0.1.0
 django-storages==1.14.6
 dnspython==2.8.0
 email-validator==2.3.0
-gunicorn==23.0.0
 idna==3.10
 jmespath==1.0.1
 oauthlib==3.3.1
-packaging==25.0
 pillow==11.3.0
 psycopg2-binary==2.9.10
 pycparser==2.23
@@ -30,3 +28,4 @@ six==1.17.0
 sqlparse==0.5.3
 tzdata==2025.2
 urllib3==2.5.0
+gunicorn
